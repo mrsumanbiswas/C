@@ -52,9 +52,9 @@ There are many text editors and compilers to choose from. In this tutorial, we w
 
 ![new-file-button](./assets/screenshots/new-file-button.png)
 
-- Write the following C code and save the file as myfirstprogram.c (File > Save File as):
+- Write the following C code and save the file as firstprogram.c (File > Save File as):
 
-> myfirstprogram.c
+> firstprogram.c
 ```c
 #include <stdio.h>
 
