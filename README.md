@@ -1,5 +1,7 @@
 # C Tutorial #
 
+![the-c-programming-language.png](./assets/screenshots/the-c-programming-language.png)
+
 # What is C?
 C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.
 
@@ -36,7 +38,7 @@ We will use `vscode` in our tutorial, which we believe is a good place to start.
 
 You can find the latest version of vscode at https://code.visualstudio.com/download.
 
-!["vscode"](./assets/screenshots/download-vscode.png)
+![vscode](./assets/screenshots/download-vscode.png)
 
 
 
@@ -47,7 +49,7 @@ You can find the latest version of vscode at https://code.visualstudio.com/downl
 - Open vscode 
 - In the File Explorer title bar, select New File and name the file helloworld.c
 
-!["new-file-button"](./assets/screenshots/new-file-button.png)
+![new-file-button](./assets/screenshots/new-file-button.png)
 
 Write the following C code and save the file as myfirstprogram.c (File > Save File as):
 
