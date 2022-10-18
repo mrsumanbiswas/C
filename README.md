@@ -51,7 +51,7 @@ You can find the latest version of vscode at https://code.visualstudio.com/downl
 
 ![new-file-button](./assets/screenshots/new-file-button.png)
 
-Write the following C code and save the file as myfirstprogram.c (File > Save File as):
+- Write the following C code and save the file as myfirstprogram.c (File > Save File as):
 
 > myfirstprogram.c
 ```c
@@ -61,4 +61,11 @@ int main() {
   printf("Hello World!");
   return 0;
 }
+```
+- open terminal
+![toggle-termial](./assets/screenshots/toggle-terminal.png)
+
+- run this command
+```bash
+gcc helloworld.c -o a.out && ./a.out
 ```
