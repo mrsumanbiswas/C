@@ -72,6 +72,6 @@ int main() {
 $ gcc helloworld.c -o a.out && ./a.out
 ```
 > output 
-```bash
+```text
 Hello World!
 ```
