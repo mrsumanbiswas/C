@@ -89,7 +89,7 @@ int main() {
 }
 ```
 
-## Example explained
+### Example explained
 
 - **Line 1:** `#include <stdio.h>` is a header file library that lets us work with input and output functions, such as printf() (used in line 4). Header files add functionality to C programs.
 
@@ -131,7 +131,7 @@ printf
 # Output (Print Text)
 - To output values or print text in C, you can use the printf() function:
 
-## Example
+### Example
 ```c
 #include <stdio.h>
 
@@ -143,7 +143,7 @@ int main() {
 
 - You can use as many printf() functions as you want. However, note that it does not insert a new line at the end of the output:
 
-## Example
+### Example
 ```c
 #include <stdio.h>
 
@@ -158,7 +158,7 @@ int main() {
 # New Lines
 - To insert a new line, you can use the \n character:
 
-## Example
+### Example
 ```c
 #include <stdio.h>
 
@@ -170,7 +170,7 @@ int main() {
 ```
 - You can also output multiple lines with a single printf() function. However, be aware that this will make the code harder to read:
 
-## Example
+### Example
 ```c
 #include <stdio.h>
 
@@ -181,7 +181,7 @@ int main() {
 ```
 - **Tip:** Two `\n` characters after each other will create a blank line:
 
-## Example
+### Example
 ```c
 #include <stdio.h>
 
