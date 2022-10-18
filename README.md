@@ -18,3 +18,45 @@ The main difference between C and C++ is that C++ support classes and objects, w
 
 
 
+# Get Started With C
+To start using C, you need two things:
+
+- A text editor, like Notepad, to write C code.
+- A compiler, like GCC, to translate the C code into a language that the computer will understand.
+There are many text editors and compilers to choose from. In this tutorial, we will use an IDE (see below).
+
+# Install IDE
+An IDE (Integrated Development Environment) is used to edit AND compile the code.
+
+Popular IDE's include Code::Blocks, Eclipse, and Visual Studio. These are all free, and they can be used to both edit and debug C code.
+
+Note: Web-based IDE's can work as well, but functionality is limited.
+
+We will use `vscode` in our tutorial, which we believe is a good place to start.
+
+You can find the latest version of vscode at https://code.visualstudio.com/download.
+
+!["vscode"](./assets/screenshots/download-vscode.png)
+
+
+
+# C Quickstart
+### Let's create our first C file.
+
+#### Add hello world source code file
+- Open vscode 
+- In the File Explorer title bar, select New File and name the file helloworld.c
+
+!["new-file-button"](./assets/screenshots/new-file-button.png)
+
+Write the following C code and save the file as myfirstprogram.c (File > Save File as):
+
+> myfirstprogram.c
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Hello World!");
+  return 0;
+}
+```
