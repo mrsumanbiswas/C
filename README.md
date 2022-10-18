@@ -79,7 +79,7 @@ Hello World!
 # Syntax
 You have already seen the following code a couple of times. Let's break it down to understand it better:
 
-#### Example ###
+### Example ###
 ```c
 #include <stdio.h>
 
@@ -211,7 +211,7 @@ int main() {
 
 So, to create a variable that should store a number, look at the following example:
 
-#### Example
+### Example
 Create a variable called myNum of type int and assign the value 15 to it:
 ```c
  int myNum = 15;
@@ -219,14 +219,14 @@ Create a variable called myNum of type int and assign the value 15 to it:
 
 You can also declare a variable without assigning the value, and assign the value later:
 
-#### Example
+### Example
 ```c
 int myNum;
 myNum = 15;
 ```
 Note: If you assign a new value to an existing variable, it will overwrite the previous value:
 
-#### Example
+### Example
 ```c
 int myNum = 15;  // myNum is 15
 myNum = 10;  // Now myNum is 10
@@ -234,14 +234,14 @@ myNum = 10;  // Now myNum is 10
 Output Variables
 You learned from the output chapter that you can output values/print text with the `printf()` function:
 
-#### Example
+### Example
 ```c
 printf("Hello World!");
 ```
 
 In many other programming languages (like Python, Java, and C++), you would normally use a print function to display the value of a variable. However, this is not possible in C:
 
-#### Example
+### Example
 ```c
 
 int myNum = 15;
@@ -256,14 +256,14 @@ printf(myNum);  // Nothing happens
 
 > For example, to output the value of an int variable, you must use the format specifier %d or %i surrounded by double quotes, inside the printf() function:
 
-#### Example
+### Example
 ```c
 int myNum = 15;
 printf("%d", myNum);  // Outputs 15
 ```
 - To print other types, use %c for char and %f for float:
 
-#### Example
+### Example
 ```c
 // Create variables
 int myNum = 5;             // Integer (whole number)
@@ -277,14 +277,14 @@ printf("%c\n", myLetter);
 ```
 - To combine both text and a variable, separate them with a comma inside the printf() function:
 
-#### Example
+### Example
 ```c
 int myNum = 5;
 printf("My favorite number is: %d", myNum);
 ```
 - To print different types in a single printf() function, you can use the following:
 
-#### Example
+### Example
 ```c
 int myNum = 5;
 char myLetter = 'D';
@@ -295,7 +295,7 @@ You will learn more about Data Types in the next chapter.
 Add Variables Together
 - To add a variable to another variable, you can use the + operator:
 
-#### Example
+### Example
 ```c
 int x = 5;
 int y = 6;
@@ -306,14 +306,14 @@ printf("%d", sum);
 Declare Multiple Variables
 - To declare more than one variable of the same type, use a comma-separated list:
 
-#### Example
+### Example
 ```c
 int x = 5, y = 6, z = 50;
 printf("%d", x + y + z);
 ```
 You can also assign the same value to multiple variables of the same type:
 
-#### Example
+### Example
 ```c
 int x, y, z;
 x = y = z = 50;
@@ -329,7 +329,7 @@ Identifiers can be short names (like x and y) or more descriptive names (age, su
 
 Note: It is recommended to use descriptive names in order to create understandable and maintainable code:
 
-#### Example
+### Example
 ```c
 
 // Good
