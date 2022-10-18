@@ -58,7 +58,7 @@ You can find the latest version of vscode at https://code.visualstudio.com/downl
 #include <stdio.h>
 
 int main() {
-  printf("Hello World!");
+  printf("Hello World!\n");
   return 0;
 }
 ```
@@ -67,5 +67,7 @@ int main() {
 
 - run this command
 ```bash
-gcc helloworld.c -o a.out && ./a.out
+$ gcc helloworld.c -o a.out && ./a.out
+Hello World!
+$ 
 ```
