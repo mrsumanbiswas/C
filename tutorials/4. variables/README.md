@@ -12,29 +12,29 @@
 ## Syntax
 `type variableName = value;`
 
-- Where type is one of C types (such as int), and variableName is the name of the variable (such as x or myName). The equal sign is used to assign a value to the variable.
+- Where type is one of C types (such as int), and variableName is the name of the variable (such as x or Name). The equal sign is used to assign a value to the variable.
 
 So, to create a variable that should store a number, look at the following example:
 
 ### Example
-Create a variable called myNum of type int and assign the value 15 to it:
+Create a variable called Num of type int and assign the value 15 to it:
 ```c
- int myNum = 15;
+ int Num = 15;
 ```
 
 You can also declare a variable without assigning the value, and assign the value later:
 
 ### Example
 ```c
-int myNum;
-myNum = 15;
+int Num;
+Num = 15;
 ```
 Note: If you assign a new value to an existing variable, it will overwrite the previous value:
 
 ### Example
 ```c
-int myNum = 15;  // myNum is 15
-myNum = 10;  // Now myNum is 10
+int Num = 15;  // Num is 15
+Num = 10;  // Now Num is 10
 ```
 Output Variables
 You learned from the output chapter that you can output values/print text with the `printf()` function:
@@ -49,8 +49,8 @@ In many other programming languages (like Python, Java, and C++), you would norm
 ### Example
 ```c
 
-int myNum = 15;
-printf(myNum);  // Nothing happens
+int Num = 15;
+printf(Num);  // Nothing happens
 ```
 - To output variables in C, you must get familiar with something called **format specifiers**.
 
@@ -63,37 +63,37 @@ printf(myNum);  // Nothing happens
 
 ### Example
 ```c
-int myNum = 15;
-printf("%d", myNum);  // Outputs 15
+int Num = 15;
+printf("%d", Num);  // Outputs 15
 ```
 - To print other types, use %c for char and %f for float:
 
 ### Example
 ```c
 // Create variables
-int myNum = 5;             // Integer (whole number)
-float myFloatNum = 5.99;   // Floating point number
-char myLetter = 'D';       // Character
+int Num = 5;             // Integer (whole number)
+float FloatNum = 5.99;   // Floating point number
+char Letter = 'D';       // Character
 
 // Print variables
-printf("%d\n", myNum);
-printf("%f\n", myFloatNum);
-printf("%c\n", myLetter);
+printf("%d\n", Num);
+printf("%f\n", FloatNum);
+printf("%c\n", Letter);
 ```
 - To combine both text and a variable, separate them with a comma inside the printf() function:
 
 ### Example
 ```c
-int myNum = 5;
-printf("My favorite number is: %d", myNum);
+int Num = 5;
+printf("My favorite number is: %d", Num);
 ```
 - To print different types in a single printf() function, you can use the following:
 
 ### Example
 ```c
-int myNum = 5;
-char myLetter = 'D';
-printf("My number is %d and my letter is %c", myNum, myLetter);
+int Num = 5;
+char Letter = 'D';
+printf("My number is %d and  letter is %c", Num, Letter);
 ```
 You will learn more about Data Types in the next chapter.
 
