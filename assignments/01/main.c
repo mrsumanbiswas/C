@@ -32,10 +32,10 @@ int main(int argc, char  *argv[])
     while( strtok != NULL){
         words = strtok(NULL," ");
         printf("%s\n",words);
-        len++;
         printf("%d\n",len);
+        len++;
     }
-    return &words;
+    // return &words;
 }
 
 // analyse the words || this is the main logic 
