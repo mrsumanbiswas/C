@@ -26,10 +26,12 @@ char *get_words(){
 
 }
 
+// analyse the words || this is the main logic 
 void analyse(char const words[]){
 
 }
 
+// generates a `files.txt` 
 void gen_file(char const words[]){
 
 }
