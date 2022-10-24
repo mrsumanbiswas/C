@@ -2,28 +2,31 @@
 ## A _C_ program that will produce a list. ##
 
 **The program problem statements:**
-Take input from the console as a string that contains one or more English words (eg. apple) in small letters prefixed by **A** or **D** where 'A' stands for _adding_ and 'D' stands for _deleting_. It can take input(s) as argument(s).
+Take input from the console as a string that contains one or more English words (eg. apple) in small letters prefixed by **A** or **D** where 'A' stands for _adding_ and 'D' stands for _deleting_. It can take input(s) as argument(s). Invalid argument(s) or input(s) will be overlooked. If list.txt already exists then it will update that. If the word(s) to delete is not present then it will overlook that. If the word(s) to add is already present then it will overlook that.
 
    _Example 1_
  
    ```bash
     $ ./a.out                              <-- the C output binary.
-      Acar Dman                            <-- input(s)
+      Acar Aman                            <-- input(s)
       Add - car                            <-- output      
-      Delete - man                         <-- output
+      Add - man                         <-- output
       A file generated named list.txt      <-- output
     $
    ```
 
    _Example 2_
+   > It extends the example 1
  
    ```bash
-    $ ./a.out                           <-- the C output binary.
-      Aapple Dorange Ddog               <-- input(s)
-      Add - car                         <-- output      
-      Delete - man                      <-- output
-      Delete - dog                      <-- output
-      A file generated named list.txt   <-- output
+    $ ls
+      a.out list.txt
+    $ ./a.out                                     <-- the C output binary.
+      Aapple Dorange Dman Ddog Anow               <-- input(s)
+      Add - apple                                 <-- output      
+      Delete - man                                <-- output
+      Add - now                                   <-- output
+      list.txt updated                            <-- output
     $
    ```
 
