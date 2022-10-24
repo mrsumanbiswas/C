@@ -36,11 +36,13 @@ void analyse(int len, char *words[])
         {
             words[i][0] = ' ';
             printf("Add -> %s\n", words[i]);
+            words[i][0] = 'A';
         }
         else if (words[i][0] == 'D')
         {
             words[i][0] = ' ';
             printf("Delete -> %s\n", words[i]);
+            words[i][0] = 'D';
         }
     }
     gen_file(len, words);
@@ -78,8 +80,10 @@ void gen_file(int len, char *words[])
             {
                 if (words[j][0] == 'A')
                 {
-                    words[j][0] = ' ';
-                    printf("Add -> %s\n", words[i]);
+                words[i][0] = ' ';
+                // printf
+                strcpy(content[line], words[j]);
+                line++;
                 }
                 else if (words[j][0] == 'D')
                 {
@@ -96,6 +100,8 @@ void gen_file(int len, char *words[])
             if (words[i][0] == 'A')
             {
                 words[i][0] = ' ';
+                strcpy(content[line], words[i]);
+                line++;
                 printf("Add -> %s\n", words[i]);
             }
         }
