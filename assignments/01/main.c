@@ -50,12 +50,19 @@ void analyse(int len, char *words[]){
 // generates a `files.txt` 
 void gen_file(int len, char *words[]){
     FILE *fp;
-    fp = fopen("list.txt","w");
-    if (!fp) // checking of error
-			printf("s");
-    for (int x=1; x <len; x++){
-        fprintf(fp,"%s\n", words); // giving conten
 
+    // reading the file
+    fp = fopen("list.txt","r");
+    char con[1000];
+    while (fgets(con,1000, fp)!=NULL)// reading file content
+        printf("%s",con);
+
+    fclose(fp); // closing of file
+
+    // updating the file
+    fp = fopen("list.txt","w");
+    for (int x=1; x <len; x++){
+        fprintf(fp,"%s\n", words[x]); // giving conten
     }
     fclose(fp); // closing of file
 }
