@@ -11,7 +11,7 @@ int main(int argc, char  *argv[])
     (argc > 1) ? analyse(argc,argv):printf("Please give the items as argument.\n");
 
     // for debug purpuse only
-    if (MODE == "debug")
+    if (MODE != "debug")
     if (argc > 1)
     {
         for (int i = 1; i < argc; i++)
@@ -31,7 +31,18 @@ int main(int argc, char  *argv[])
 void analyse(int len, char *words[]){
     for (int i = 1; i < len; i++)
     {
-        printf("at %d -> %s\n",i,words[i]);
+        if (words[i][0]=='A')
+        {
+            words[i][0]=' ';
+        printf("Add -> %s\n",words[i]);
+
+        }else if (words[i][0]=='D')
+        {
+            words[i][0]=' ';
+            printf("Delete -> %s\n",words[i]);
+        }
+        
+        
     }
     
 }
