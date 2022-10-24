@@ -4,7 +4,7 @@
 #define MODE "debug"
 
 void analyse(int , char *[]);
-void gen_file(int , char[]);
+void gen_file(int , char *[]);
 
 int main(int argc, char  *argv[])
 {
@@ -44,10 +44,18 @@ void analyse(int len, char *words[]){
         
         
     }
-    
+    gen_file(len,words);
 }
 
 // generates a `files.txt` 
-void gen_file(int len, char words[]){
+void gen_file(int len, char *words[]){
+    FILE *fp;
+    fp = fopen("list.txt","w");
+    if (!fp) // checking of error
+			printf("s");
+    for (int x=1; x <len; x++){
+        fprintf(fp,"%s\n", words); // giving conten
 
+    }
+    fclose(fp); // closing of file
 }
