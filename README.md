@@ -1,4 +1,4 @@
-# C Tutorial #
+# C Language #
 
 ![the-c-programming-language.png](./assets/screenshots/the-c-programming-language.png)
 
