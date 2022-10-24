@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-
+// gets words from console
 char *get_words(){
 
 }
