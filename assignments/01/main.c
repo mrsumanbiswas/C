@@ -20,3 +20,16 @@ int main(int argc, char const *argv[])
     (argc > 1) ? analyse(*argv):analyse(get_words(*argv));
     return 0;
 }
+
+
+char *get_words(){
+
+}
+
+void analyse(char const words[]){
+
+}
+
+void gen_file(char const words[]){
+
+}
