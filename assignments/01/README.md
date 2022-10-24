@@ -6,7 +6,7 @@ Take input from the console as a string that contains one or more English words 
 
    _Example 1_
  
-   ```bash
+   ```text
     $ ./a.out                              <-- the C output binary.
       Acar Dman                            <-- input(s)
       Add - car                            <-- output      
@@ -17,7 +17,7 @@ Take input from the console as a string that contains one or more English words 
 
    _Example 2_
  
-   ```bash
+   ```text
     $ ./a.out                           <-- the C output binary.
       Aapple Dorange Ddog               <-- input(s)
       Add - car                         <-- output      
@@ -25,4 +25,18 @@ Take input from the console as a string that contains one or more English words 
       Delete - dog                      <-- output
       a file created named list.txt     <-- output
     $
+   ```
+
+   _Example 3_
+
+   ```text
+   $ ./a.out Aman Acat Aroad Dlava Ago Agolang Apython  <-- input as argument(s)
+     Add - man                                          <-- output          
+     Add - cat                                          <-- output          
+     Add - road                                         <-- output     
+     Delete - lava                                      <-- output
+     Add - go                                           <-- output 
+     Add - golang                                       <-- output           
+     Add - python                                       <-- output
+   $
    ```
