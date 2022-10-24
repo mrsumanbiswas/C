@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void gen_file(char const *words[]){}
+
 int main(int argc, char const *argv[])
 {
     if (argc > 1)
