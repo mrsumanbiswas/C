@@ -20,7 +20,7 @@ Take input from the console as a string that contains one or more English words 
  
    ```bash
     $ ls
-      a.out list.txt
+      a.out list.txt ...
     $ ./a.out                                     <-- the C output binary.
       Aapple Dorange Dman Ddog Anow               <-- input(s)
       Add - apple                                 <-- output      
