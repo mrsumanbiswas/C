@@ -54,27 +54,58 @@ void gen_file(int len, char *words[])
     char lines[1000][1000];
 
     // reading the file
-    fp = fopen("list.txt", "r");
-    char con[1000];
-    while (fgets(con, 1000, fp) != NULL) // reading file content
+    fp = fopen("list.txt", "a+");
+    if (fp)
     {
-        strcpy(lines[col],con);
-        col++;
+        char con[1000];
+        while (fgets(con, 1000, fp) != NULL) // reading file content
+        {
+            strcpy(lines[col], con);
+            col++;
+        }
     }
     fclose(fp); // closing of file
 
-
     // manupulations
-    int line=0;
+    int line = 0;
     char content[1000][1000];
 
-
+    if (col)
+    {
+        for (int i = 0; i < col; i++)
+        {
+            for (int j = 0; j < len; j++)
+            {
+                if (words[j][0] == 'A')
+                {
+                    words[j][0] = ' ';
+                    printf("Add -> %s\n", words[i]);
+                }
+                else if (words[j][0] == 'D')
+                {
+                    words[j][0] = ' ';
+                    printf("Delete -> %s\n", words[i]);
+                }
+            }
+        }
+    }
+    else
+    {
+        for (int i = 0; i < len; i++)
+        {
+            if (words[i][0] == 'A')
+            {
+                words[i][0] = ' ';
+                printf("Add -> %s\n", words[i]);
+            }
+        }
+    }
 
     // updating the file
-    fp = fopen("list.txt", "w");
+    fp = fopen("list.txt", "w+");
     for (int x = 0; x < line; x++)
     {
-        fprintf(fp, "%s\n",content[x] ); // giving conten
+        fprintf(fp, "%s\n", content[x]); // giving conten
     }
     fclose(fp); // closing of file
 }
