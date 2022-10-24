@@ -10,7 +10,7 @@ Take input from the console as a string that contains one or more English words 
     $ ./a.out                              <-- the C output binary.
       Acar Aman                            <-- input(s)
       Add - car                            <-- output      
-      Add - man                         <-- output
+      Add - man                            <-- output
       A file generated named list.txt      <-- output
     $
    ```
