@@ -80,8 +80,7 @@ void gen_file(int len, char *words[])
             {
                 if (words[j][0] == 'A')
                 {
-                words[i][0] = ' ';
-                // printf
+                words[j][0] = ' ';
                 strcpy(content[line], words[j]);
                 line++;
                 }
