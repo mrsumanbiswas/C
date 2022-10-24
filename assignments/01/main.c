@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-#define MODE "debugd"
+#define MODE "debug"
 
 
 char *get_words();
-void analyse(const char *);
-void gen_file(char *);
+void analyse(const char[]);
+void gen_file(const char[]);
 
 int main(int argc, char const *argv[])
 {
-    (argc > 1) ? analyse(*argv):analyse(get_words(*argv));
+    (argc > 1) ? analyse(*argv):analyse(get_words());
 
     // for debug purpuse only
     if (MODE == "debug")
@@ -28,9 +28,17 @@ int main(int argc, char const *argv[])
 
 // gets words from console
 char *get_words(){
-    char text[5];
+    char text[]="";
+    for (size_t i = 0; i < 10; i++)
+    {
+
+        text[i] = 's';
+        printf("%c\n",text[i]);
+    }
+    
     // getline();
-    return &text;
+    printf("%s",text);
+    return text;
 }
 
 // analyse the words || this is the main logic 
@@ -39,6 +47,6 @@ void analyse(const char words[]){
 }
 
 // generates a `files.txt` 
-void gen_file(char words[]){
+void gen_file(const char words[]){
 
 }
