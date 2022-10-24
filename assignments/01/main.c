@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-void gen_file(char const *words[]){}
+char *get_words(){}
+void analyse(char const words[]){}
+void gen_file(char const words[]){}
 
 int main(int argc, char const *argv[])
 {
@@ -13,6 +15,8 @@ int main(int argc, char const *argv[])
         
     } else{
         printf("%d\n", argc);
+        analyse(get_words());
     }
+    (argc > 1) ? analyse(*argv):analyse(get_words(*argv));
     return 0;
 }
