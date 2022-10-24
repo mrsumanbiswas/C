@@ -1,0 +1,372 @@
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+
+
+
+
+Add ->  sdfs
+
+
+
+
+
+
+
+Delete ->  sdf
+
+
+
+
+
+
+
+Add ->  ss
+
+
+
+
+
+
+
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+
+
+
+
+Add ->  sdfs
+
+
+
+
+
+
+
+Delete ->  sdf
+
+
+
+
+
+
+
+Add ->  ss
+
+
+
+
+
+
+
+0suman@Ubuntu:~/code/C/assignments/01$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfs
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfs
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfssuman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfs
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfs
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfssuman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfs
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfs
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfssuman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfs
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfs
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+suman@Ubuntu:~/code/C/assignments/01$ gcc main.c -o a.out -O2 && ./a.out d Asdfs Dsdf sdfsd sdlf Ass
+
+
+
+Add ->  sdfs
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+0suman@Ubuntu:~/code/C/assignments/01$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8suman@Ubuntu:~/code/C/assignments/01$ 13suman@Ubuntu:~/code/C/assignments/01$ 
+
+
+
+
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+0suman@Ubuntu:~/code/C/assignments/01$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8suman@Ubuntu:~/code/C/assignments/01$ 13suman@Ubuntu:~/code/C/assignments/01$ 
+
+
+
+
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+0suman@Ubuntu:~/code/C/assignments/01$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8suman@Ubuntu:~/code/C/assignments/01$ 13suman@Ubuntu:~/code/C/assignments/01$ 
+
+
+
+
+
+
+
+Delete ->  sdf
+
+
+
+Add ->  ss
+
+
+
+0suman@Ubuntu:~/code/C/assignments/01$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8suman@Ubuntu:~/code/C/assignments/01$ 13suman@Ubuntu:~/code/C/assignments/01$ 
+
+
+
+
+
+
+
+8suman@Ubuntu:~/code/C/assignments/01$ 
+
+
+
