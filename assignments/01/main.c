@@ -78,22 +78,28 @@ void gen_file(int len, char *words[])
         {
             for (int j = 0; j < len; j++)
             {
-                if (words[j][0] == 'A')
+
+                if (words[j][0] == 'D')
+                {
+                    words[j][0] = ' ';
+                    if (lines[i] == words[j])
+                    {
+
+                        printf("Delete -> %s\n", words[i]);
+                    }
+                }
+                else if (words[j][0] == 'A')
                 {
                     words[j][0] = ' ';
                     if (lines[i] != words[j])
                     {
                         strcpy(content[line], words[j]);
-                        line++;
                     }
-                }
-                else if (words[j][0] == 'D')
-                {
-                    words[j][0] = ' ';
-                    if (lines[i] == words[j])
+                    else
                     {
-                        printf("Delete -> %s\n", words[i]);
+                        strcpy(content[line], words[j]);
                     }
+                    line++;
                 }
             }
         }
@@ -107,7 +113,6 @@ void gen_file(int len, char *words[])
                 words[i][0] = ' ';
                 strcpy(content[line], words[i]);
                 line++;
-                printf("Add -> %s\n", words[i]);
             }
         }
     }
