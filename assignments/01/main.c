@@ -80,14 +80,20 @@ void gen_file(int len, char *words[])
             {
                 if (words[j][0] == 'A')
                 {
-                words[j][0] = ' ';
-                strcpy(content[line], words[j]);
-                line++;
+                    words[j][0] = ' ';
+                    if (lines[i] != words[j])
+                    {
+                        strcpy(content[line], words[j]);
+                        line++;
+                    }
                 }
                 else if (words[j][0] == 'D')
                 {
                     words[j][0] = ' ';
-                    printf("Delete -> %s\n", words[i]);
+                    if (lines[i] == words[j])
+                    {
+                        printf("Delete -> %s\n", words[i]);
+                    }
                 }
             }
         }
