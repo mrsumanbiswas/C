@@ -51,14 +51,14 @@ void analyse(int len, char *words[]){
 void gen_file(int len, char *words[]){
     FILE *fp;
     int col;
-    char lines[1000];
+    char** lines;
 
     // reading the file
     fp = fopen("list.txt","r");
     char con[1000];
     while (fgets(con,1000, fp)!=NULL)// reading file content
         printf("%s",con);
-        lines[col] = *con;
+        // lines[col] = con;
         col++;
 
     fclose(fp); // closing of file
@@ -67,7 +67,7 @@ void gen_file(int len, char *words[]){
     fp = fopen("list.txt","w");
     printf("%d",col);
     for (int x=0; x <col; x++){
-        fprintf(fp,"%d\n", lines[col-1]); // giving conten
+        fprintf(fp,"%s\n", lines[x]); // giving conten
     }
     fclose(fp); // closing of file
 }
