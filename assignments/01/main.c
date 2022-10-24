@@ -58,22 +58,23 @@ void gen_file(int len, char *words[])
     char con[1000];
     while (fgets(con, 1000, fp) != NULL) // reading file content
     {
-
-        // printf("%d::%s", col, con);
         strcpy(lines[col],con);
-        printf("%s",lines[col]);
         col++;
     }
-
     fclose(fp); // closing of file
+
+
+    // manupulations
+    int line=0;
+    char content[1000][1000];
+
+
 
     // updating the file
     fp = fopen("list.txt", "w");
-    printf("%d", col);
-    for (int x = 0; x < col; x++)
+    for (int x = 0; x < line; x++)
     {
-        // printf("hi -> %s\n",line);
-        fprintf(fp, "%s\n",lines[x] ); // giving conten
+        fprintf(fp, "%s\n",content[x] ); // giving conten
     }
     fclose(fp); // closing of file
 }
