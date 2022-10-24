@@ -11,7 +11,7 @@ Take input from the console as a string that contains one or more English words 
       Acar Dman                            <-- input(s)
       Add - car                            <-- output      
       Delete - man                         <-- output
-      A file generated named list.txt        <-- output
+      A file generated named list.txt      <-- output
     $
    ```
 
@@ -23,7 +23,7 @@ Take input from the console as a string that contains one or more English words 
       Add - car                         <-- output      
       Delete - man                      <-- output
       Delete - dog                      <-- output
-      A file generated named list.txt     <-- output
+      A file generated named list.txt   <-- output
     $
    ```
 
