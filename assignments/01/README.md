@@ -38,7 +38,7 @@ Take input from the console as a string that contains one or more English words 
      Add - go                                           <-- output 
      Add - golang                                       <-- output           
      Add - python                                       <-- output
-     A file generated named list.txt                      <-- output
+     A file generated named list.txt                    <-- output
    $
    ```
 
