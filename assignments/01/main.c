@@ -2,14 +2,15 @@
 
 #define MODE "debug"
 
+size_t len = 0;
 
-char *get_words();
-void analyse(const char[]);
-void gen_file(const char[]);
+char get_words();
+void analyse(size_t ,const char[]);
+void gen_file(size_t ,const char[]);
 
 int main(int argc, char const *argv[])
 {
-    (argc > 1) ? analyse(*argv):analyse(get_words());
+    (argc > 1) ? analyse(argc,*argv):analyse(len,get_words());
 
     // for debug purpuse only
     if (MODE == "debug")
@@ -27,9 +28,9 @@ int main(int argc, char const *argv[])
 }
 
 // gets words from console
-char *get_words(){
-    char text[]="";
-    for (size_t i = 0; i < 10; i++)
+char get_words(){
+    char text[]="asdf sdf s";
+    for (size_t i = 0; i < 0; i++)
     {
 
         text[i] = 's';
@@ -38,15 +39,15 @@ char *get_words(){
     
     // getline();
     printf("%s",text);
-    return text;
+    return *text;
 }
 
 // analyse the words || this is the main logic 
-void analyse(const char words[]){
+void analyse(size_t len,const char words[]){
 
 }
 
 // generates a `files.txt` 
-void gen_file(const char words[]){
+void gen_file(size_t len,const char words[]){
 
 }
