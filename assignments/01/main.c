@@ -2,14 +2,13 @@
 #include <string.h>
 
 #define MODE "debug"
-
- char** get_words(int);
+char** get_words(int,char *[]);
 void analyse(int , char *[]);
 void gen_file(int , char[]);
 
 int main(int argc, char  *argv[])
 {
-    (argc > 1) ? analyse(argc,argv):analyse(argc,get_words(argc));
+    (argc > 1) ? analyse(argc,argv):analyse(argc,get_words(argc,argv));
 
     // for debug purpuse only
     if (MODE != "debug")
@@ -27,9 +26,9 @@ int main(int argc, char  *argv[])
 }
 
 // gets words from console
- char** get_words(int len){
+ char** get_words(int len,char *words[]){
     char text[]="asdf sdf s";
-    char* words = strtok(text," ");
+    words = strtok(text," ");
     while( strtok != NULL){
         words = strtok(NULL," ");
         printf("%s\n",words);
