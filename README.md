@@ -79,4 +79,4 @@ Hello World!
 
 **For tutorials go to [ tutorials ]("https://github.com/mrsumanbiswas/C/tree/master/tutorials")**
 
-**For assignments go to [ assignments ]("https://github.com/mrsumanbiswas/C/tree/master/assignments")**
+**For assignments go to [ assignments ]("https://github.com/mrsumanbiswas/C/")**
