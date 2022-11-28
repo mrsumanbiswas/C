@@ -75,8 +75,3 @@ $ gcc helloworld.c -o a.out && ./a.out
 ```text
 Hello World!
 ```
-
-
-**For tutorials go to [ tutorials ]("https://github.com/mrsumanbiswas/C/tree/master/tutorials")**
-
-**For assignments go to [ assignments ]("https://github.com/mrsumanbiswas/C/")**
